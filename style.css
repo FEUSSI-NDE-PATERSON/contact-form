@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+label{
+    margin:8px 0px 8px 0px;
+    color:#2b4246;
+}
+input,textarea{
+    border:1px solid #87a3a6;
+    padding:10px;
+    margin-left: 12px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+input:hover,textarea:hover{
+    border:1px solid #0c7d69;
+
+}
+.error{
+    border:1px solid #d94545;
+}
+.errorPara{
+    color:#d94545;
+    font-size: 10px;
+}
+.correct{
+    border:1px solid #0c7d69;
+}
+.correctPara{
+    color:#0c7d69;
+}
